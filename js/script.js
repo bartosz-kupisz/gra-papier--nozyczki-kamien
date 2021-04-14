@@ -13,14 +13,15 @@ if(playerInput == '1'){
   if (playerInput == '3'){
   playerMove = 'nożyczki';
 }
+let computerMove = 'kamień';
 
 printMessage('Twój ruch to: ' + playerMove);
 if( computerMove == 'kamień' && playerMove == 'papier'){
   printMessage('Ty wygrywasz!');
 }
-if( computerMove == 'Papier' && playerMove == 'papier'){
+if( computerMove == 'kamień' && playerMove == 'kamień'){
     printMessage('Remis!');
   }
-if( computerMove == 'Nożyczki' && playerMove == 'papier'){
+if( computerMove == 'kamień' && playerMove == 'nożyczki'){
     printMessage('Przegrana!');
-  }
+}
