@@ -1,8 +1,8 @@
-const let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
+const playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
 
 console.log('Gracz wpisał: ' + playerInput);
 
-const let computerMove = getMoveName(randomNumber);
+const computerMove = getMoveName(randomNumber);
 
 if(playerInput == '1'){
   playerMove = 'kamień';
@@ -44,7 +44,7 @@ const displayResult = function(argComputerMove, argPlayerMove) {
   }
 }
 
-const let computerMove = 'kamień';
+const computerMove = 'kamień';
 
 printMessage('Twój ruch to: ' + playerMove);
 if( computerMove == 'kamień' && playerMove == 'papier'){
