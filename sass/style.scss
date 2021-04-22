@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 40px;
+  }
+  
+  h2 {
+    margin: auto;
+  }
+  
+  .buttons {
+    margin: 20px auto;
+    width: 70%;
+    height: 40%;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .far {
+    font-size: 4rem;
+    cursor: pointer;
+    margin: 20px 50px;
+    background: teal;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    padding: 30px;
+  }
+  
+  .far:hover {
+    background-color: grey;
+    transform: scale(1.2);
+  }
+  
+  .container {
+    height: 100vh;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
