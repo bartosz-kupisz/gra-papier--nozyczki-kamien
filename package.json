@@ -1,6 +1,8 @@
+{
 "name": "taskrunner",
   "version": "1.0.0",
-  "description": "",
+  "description
+  ": "",
   "main": "index.html",
   "scripts": {
     "init-project": "npm install && npm-run-all init:*",
