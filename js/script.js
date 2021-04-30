@@ -34,7 +34,7 @@ function playGame(playerInput) {
     } else if (argComputerMove == 'nożyce' && argPlayerMove == 'papier') {
       printMessage('Przegrywa gracz!');
     } else if (argComputerMove == 'nożyce' && argPlayerMove == 'kamień') {
-      printMessage('Przegrywa gracz!');
+      printMessage('Wygrywa gracz!');
     } else if (argComputerMove == argPlayerMove) {
       printMessage('Remis!');
     }
